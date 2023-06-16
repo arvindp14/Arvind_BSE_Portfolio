@@ -9,7 +9,7 @@ My project is the garage parking assistant. This is a device programed to help a
 
 ![Headstone Image](logo.svg)
   
-<?-- # Final Milestone
+<!-- # Final Milestone
 -For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
