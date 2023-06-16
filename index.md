@@ -1,5 +1,5 @@
 # Garage Parking Assist
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is the garage parking assistant. This is a device programed to help a car park in a tight garage by putting a red light if the car is getting close to the wall to prevent the car from hitting the wall. When a car is backing out it returns to a green light indicating the car has plety of space infront of it.
 
 | **Engineer** | **School** | **Area of Intrest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -9,8 +9,8 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
+?# Final Milestone
+-For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
@@ -18,7 +18,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 ________________________________
-
 # Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
