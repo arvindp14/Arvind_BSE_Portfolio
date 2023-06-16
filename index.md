@@ -40,15 +40,10 @@ For your first milestone, describe what your project is and how you plan to buil
 ________________________________
 
 # Starter Project
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For your starter project, describe what your project is and how you plan to build it. You can include:
+My frist milestone was completing my starter project which was the Tv Be Gone. The Tv Be Gone is a Tv remote that can work anywhere on any Tv! Some of the components of the project include a button which is connected to a light that is programed so that when the button is pressed the light will illuminate. A microcontroller as well that tells 4 infrared lights to send a sends signals to Tv's to connect to them. There are also 4 resistor’s that regulate the flow of electricity in the remote. Some of the technical progress that I have made in my project include learning that filling holes with solder inside of the board will be a huge pain to get rid of. I also learned to be very careful when inserting resistors into the board as they can break easy when inserting. A challenge I have faced in my project that I have solved in my intensive project was not heating the heat shirnk enough which makes the connection inside of the heat shrink weaker and as a result creating an issue in the project. This is have fixed when using a heat shirnk in my main project as I saw if the jap between the heat shirnk and the wire was small enough and once it was I knew it could be sturdy enough. I know will use the information I have learned in making my starter project and use it my intesive project.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="1792" height="949" src="https://www.youtube.com/embed/TGxNgDbHCbw?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arvind P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1792" height="949" src="https://www.youtube.com/embed/TGxNgDbHCbw?list=PLe-u_DjFx7evbB-xhja9iGMLTbCZXLQRI" title="Arvind P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <img width="430" src="https://user-images.githubusercontent.com/3165635/181920799-159f16a9-0de3-4de4-aec9-6d82860c43f4.gif" />
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
