@@ -23,15 +23,16 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
---# First Milestone
+-->
+# First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-
---> 
+<iframe width="560" height="350" src="https://www.youtube.com/embed/GFauvsFPPtU" title="Arvind P. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
 # Starter Project
 My first milestone was completing my starter project which was the Tv Be Gone. The Tv Be Gone is a Tv remote that can work anywhere on any Tv! Some of the components of the project include a button which is connected to a light that is programed so that when the button is pressed the light will illuminate. A microcontroller that tells 4 infrared lights to send signals to Tv's to connect to them. There are also 4 resistor’s that regulate the flow of electricity in the remote. Some of the technical progress that I have made in my project include learning that filling holes with solder inside of the board will be a huge pain to get rid of. I also learned to be very careful when inserting resistors into the board as they can break easy when inserting. A challenge I have faced in my project that I have solved in my intensive project was not heating the heat shirnk enough which makes the connection inside of the heat shrink weaker and as a result creating an issue in the project. This is have fixed when using a heat shirnk in my main project as I saw if the jap between the heat shirnk and the wire was small enough and once it was I knew it could be sturdy enough. I will use the information I have learned in making my starter project and use it my intesive project.
 
