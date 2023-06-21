@@ -16,14 +16,12 @@ My project is the garage parking assistant. This is a device programed to help a
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
---# Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
 -->
+# Second Milestone
+My second milestone was completing the LED strip part of my Garage Parking Assistant project. This is the part of the project that will be the guide for the vehicles to act according to what the light says. For example if it is red that means that there is plenty of space to go forward however it is red there is no more space to move forward and the vehicle should stop. Some of the components include a data cable, the power and ground cables, and the actual LED strip itself. Something that has been surprising is that just the regular wall outlet plug that connects to the LED is not the only thing that needs to be plugged in inorder to make the light actually light up. It also needs to be plugged into the arduino itself. That also happened to be the biggest challenge of this part of the project for me. The debugging took a lot of time to fully figure out, but once I did I was able to make the light activate. A challenge that was reoccurring for me was understanding the code, however this time I was able to fix it a bit faster because I already had some experience working with the code. I now need to re-wire some of the ground and power cables into a breadboard to make it easier to manage all of the cables in one place.
+
+<iframe width="560" height="350" src="https://www.youtube.com/embed/lh4tWKUuAtc" title="Arvind P. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # First Milestone
 My first milestone was completing the ultrasonic sensor part of my garage parking assistant project. It is the part of the project that will detect how far the vehicle is from hitting the wall. Some of the components of the project include the ultrasonic sensor itself, ground and power cables, and Trig and Echo pins. A challenge I am faced with in my project that I can prevent in future projects is knowing how to actually code in C++! Before working on this part of my project I had know idea how to code in C++. However once I learned some of the basics I was able to make it work and read all of the distances. There weren’t any challenges that I had faced while making the ultrasonic sensor work that I had faced while making the Tv Be Gone. My plan to complete the project is to combine this to the LED. The LED will be working in correspondence to the LED and once I can make the LED work I will be able to combine the two and have a working Garage Parking Assistant!
 
