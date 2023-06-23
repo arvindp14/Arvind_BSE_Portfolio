@@ -176,9 +176,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | LED | This is used to tell the car how to act through color.| $32.99 | <a href="https://www.amazon.com/BTF-LIGHTING-Flexible-Individually-Addressable-Non-waterproof/dp/B01CDTEJBG/ref=sr_1_1_sspa?crid=2EJY8BP7FFZ2U&keywords=ws2812b%2Bled%2Bstrip&qid=1686776906&sprefix=WS2812B%2BL%2Caps%2C218&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTSU5NRk1GRUhBU0gmZW5jcnlwdGVkSWQ9QTA1MTg1NTUzSjBJSVY0QTVJRUxOJmVuY3J5cHRlZEFkSWQ9QTEwMDM4MzQxNFM3NEk2TEpKODBWJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 5V Power Supply | To power all of the componets in my project | $10.99 | <a href="https://www.amazon.com/3000mA-Volts-Adapter-Power-Supply/dp/B0852HCM8S/ref=sr_1_2_sspa?crid=3PFCATRNI6WRB&keywords=5v+barrel+jack+power+supply&qid=1687560544&sprefix=5v+barrel+j%2Caps%2C271&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Ultrasonic Sensor | It tells the distance of the car that is either coming or going. | $6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_1_sspa?crid=2LCIWSS7GNM2P&keywords=ultrasonic+sensor+arduino&qid=1687561198&sprefix=ultrasonic+senso%2Caps%2C213&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 <!---
