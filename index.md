@@ -47,6 +47,18 @@ My first milestone was completing the ultrasonic sensor part of my garage parkin
 My starter milestone was completing my starter project which was the Tv Be Gone. The Tv Be Gone is a Tv remote that can work anywhere on any Tv! Some of the components of the project include a button which is connected to a light that is programmed so that when the button is pressed the light will illuminate. A microcontroller that tells 4 infrared lights to send signals to Tv's to connect to them. There are also 4 resistor’s that regulate the flow of electricity in the remote. Some of the technical progress that I have made in my project include learning that filling holes with solder inside of the board will be a huge pain to get rid of. I also learned to be very careful when inserting resistors into the board as they can break easy when inserting. A challenge I have faced in my project that I have solved in my intensive project was not heating the heat shrink enough which makes the connection inside of the heat shrink weaker and as a result creating an issue in the project. This was fixed when using a heat shrink in my main project as I saw if the jap between the heat shrink and the wire was small enough and once it was I knew it could be sturdy enough. I will use the information I have learned in making my starter project and use it as my intensive project.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!---# Schematics 
 
 -->
