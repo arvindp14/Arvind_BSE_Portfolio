@@ -62,7 +62,7 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 <!---# Schematics 
 
 -->
-#define trigPin       10  // ultrasonic sensro trig ping
+~~~#define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
 #define NUM_LEDS      47  // How many leds in your strip?
 #define DATA_PIN      3   // data pin for LED strip
@@ -164,7 +164,7 @@ void ChangePixelColors(int zonemax, float distance, int R, int G, int B)
   
   FastLED.show();
   flashcount = 0; // we are no longer flashing red so reset this to zero
-}
+~~~}
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
