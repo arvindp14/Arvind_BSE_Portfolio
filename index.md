@@ -62,7 +62,8 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 <!---# Schematics 
 
 -->
-~~~#define trigPin       10  // ultrasonic sensro trig ping
+```
+#define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
 #define NUM_LEDS      47  // How many leds in your strip?
 #define DATA_PIN      3   // data pin for LED strip
@@ -164,7 +165,8 @@ void ChangePixelColors(int zonemax, float distance, int R, int G, int B)
   
   FastLED.show();
   flashcount = 0; // we are no longer flashing red so reset this to zero
-~~~}
+}
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -179,6 +181,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
+<!---
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
@@ -186,3 +189,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+-->
