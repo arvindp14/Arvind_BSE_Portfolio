@@ -9,11 +9,12 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 ![Headstone Image](Arvind-Headshot.png)
   
-<!-- # Final Milestone
+# Final Milestone
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
+<iframe width="560" height="350" src="https://www.youtube.com/embed/jUr4x9YDDTo" title="Arvind P. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 -->
 # Second Milestone
@@ -34,21 +35,109 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+#define trigPin       10  // ultrasonic sensro trig ping
+#define echoPin       11  // ultrasonic sensro echo ping
+#define NUM_LEDS      47  // How many leds in your strip?
+#define DATA_PIN      3   // data pin for LED strip
+#define ZONE          30  // default zone distance is 30 cms / a foot
+#define MAXRR         30  // default distance for Flashing Red is 30 cms / a foot
+#define MAXR          MAXRR+ZONE  // distance for Red
+#define MAXY          MAXR+ZONE   // distance for Yellow/Amber
+#define MAXG          MAXY+ZONE   // distance for Green
+#define MAXFLASHCOUNT 30  // max times to flash
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
+CRGB leds[NUM_LEDS];        // Define the array of leds
+
+float duration, distance;
+int flashcount, LEDpercm;
+
+void setup() 
+{
+  // initialize the LED strip
+  //FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS);  // GRB ordering is typical
+FastLED.addLeds<NEOPIXEL,3>(leds, NUM_LEDS);
+  FastLED.clear();  // clear all pixel data
+  FastLED.show();
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  // set the trig and echo pin modes
+
+  LEDpercm = NUM_LEDS / ZONE ; // number of LEDs to glow per cm of distance measured
+  int n = 0;
+  for(int n = 0; n < NUM_LEDS/2; n++);  //code to run leds as red 
+    leds[n] = CRGB (255, 0, 0);
+    fill_solid(leds, NUM_LEDS, CRGB::Red); 
   Serial.begin(9600);
-  Serial.println("Hello World!");
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop() 
+{
+  CallSensor();
 }
-```
+
+void CallSensor()
+{
+  // initiate ultrasonic sensor to fire
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  duration = pulseIn(echoPin, HIGH);
+  distance = (duration / 2) * 0.0344; // use speed of sound to calc rountrip distance and divide by 2 to get one way distance
+  Serial.println(distance);
+  delay(200); // give a delay between successive firings of ultrasonic sensor
+
+  if (distance > MAXG) // if distance is greater than MAXG clear all LEDs
+  {
+    fill_solid( leds, NUM_LEDS, CRGB::Black); 
+    FastLED.show();
+    return;
+  }
+  else if (distance > MAXY && distance < 60) 
+    ChangePixelColors(MAXG, distance, 0, 255, 0); // green color
+  else if (distance > MAXR && distance < MAXY) 
+    ChangePixelColors(MAXY, distance, 255, 126, 0); //Amber color
+  else if (distance > MAXRR && distance < MAXR) 
+    ChangePixelColors (MAXR, distance, 255, 0, 0); //red color
+  else if (distance <= MAXRR) // we are in SOS zone, show flashing red
+    ShowFlashingRed();
+}
+
+void ShowFlashingRed()
+{
+  if (flashcount >= MAXFLASHCOUNT) //stop flashing after MAX times
+  {
+    fill_solid( leds, NUM_LEDS, CRGB::Black);
+    FastLED.show();
+    return;
+  }
+
+  flashcount++; // increment the times we have flashed red
+
+  fill_solid( leds, NUM_LEDS, CRGB(255, 0, 0)); //fill full LED strip with red color
+  FastLED.show();
+  delay (250);
+  fill_solid( leds, NUM_LEDS, CRGB::Black);
+  FastLED.show();
+  delay (250);
+}
+
+void ChangePixelColors(int zonemax, float distance, int R, int G, int B)
+{
+  int countLED;
+  fill_solid(leds, NUM_LEDS, CRGB::Black); // reset the LED strip to black (or blank)
+
+  // calculate the difference of distance between zone max and object distance. This is the distance
+  // the object is at within the zone. E.g if zonemax is 120cm and object is at 100cm, we get 20cm
+  // Use this 20cm and LEDpercm to calculate how many LEDs to show
+  countLED = round((zonemax - distance)* LEDpercm) ; 
+   
+  for (int n = 0; n <= countLED; n++) // fill the LEDs with right color and until countLED 
+    leds[n] = CRGB (R, G, B);
+  
+  FastLED.show();
+  flashcount = 0; // we are no longer flashing red so reset this to zero
+}
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
