@@ -10,7 +10,6 @@ My project is the garage parking assistant. This is a device programmed to help 
 ![Headstone Image](Arvind-Headshot.png)
 
 
---->
 # Third Milestone
 
 <iframe width="560" height="350" src="https://www.youtube.com/embed/jUr4x9YDDTo" title="Arvind P. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
