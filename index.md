@@ -8,7 +8,8 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 
 ![Headstone Image](Arvind-Headshot.png)
-<!---# Final Milestone
+<!---
+# Final Milestone
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
