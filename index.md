@@ -8,6 +8,7 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 
 ![Headstone Image](Arvind-Headshot.png)
+# Final Milestone (Mods Milestone)
 
 
 # Third Milestone
@@ -57,6 +58,8 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 
 -->
 ```
+Intesnive Project Code:
+
 #define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
 #define NUM_LEDS      47  // How many leds in your strip?
