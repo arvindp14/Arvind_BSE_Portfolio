@@ -7,7 +7,7 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 
 
-![Headstone Image](Arvind-Headshot.png)
+<iframe width="560" height="350"![Headstone Image](Arvind-Headshot.png)
 # Final Milestone (Mods Milestone)
 
 
