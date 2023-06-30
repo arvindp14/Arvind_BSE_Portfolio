@@ -8,13 +8,15 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 
 ![Headstone Image](Arvind-Headshot.png)
-# Final Milestone (Mods Milestone)
+# Final Milestone
 
 
 <iframe width="560" height="350" src="https://www.youtube.com/embed/T4bwgNHG_60" title="Arvind P. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-My final milestone (Or modification milestone) was completing the 3D CAD design for my Garage Parking Assistant. Since my previous milestone I was able to organize all the wires and put it inside of the new 3D printed CAD. The CAD design took a few days to complete entirely on Onshape. This included a lot of time trying to perfect the tolerances for all the holes for the ultrasonic sensor. Making the holes all centered took some time as well however once I got the hang of doing it I was able to do it fine. One of my biggest challenges in my time here at BlueStamp were unsoldering clogged solder, debugging code in C++, and CADing the holes for the ultrasonic sensor. My biggest triumphs here at BlueStamp included seeing my TV Be Gone actually turn on a TV, seeing my LED strip finally turn on after so much hardship with it not working, and seeing my 3D printed case actually fit everything flush. Some of the key things I learned here at BlueStamp include how to solder things together, coding in C++ for Arduino IDE, learning how to CAD in Onshape, and most of all learning how to persevere through tough hardships in my project to end up making it work. In the future I would like to use what I have learned in BlueStamp in Mechanical Engineering clubs in High School or even other class opportunities to learn even more!
+My final milestone was completing the 3D CAD design for my Garage Parking Assistant. Since my previous milestone I was able to organize all the wires and put it inside of the new 3D printed CAD. The CAD design took a few days to complete entirely on Onshape. This included a lot of time trying to perfect the tolerances for all the holes for the ultrasonic sensor. Making the holes all centered took some time as well however once I got the hang of doing it I was able to do it fine. Inorder to center all of the holes I needed to make t
+
+One of my biggest challenges in my time here at BlueStamp were unsoldering clogged solder, debugging code in C++, and CADing the holes for the ultrasonic sensor. My biggest triumphs here at BlueStamp included seeing my TV Be Gone actually turn on a TV, seeing my LED strip finally turn on after so much hardship with it not working, and seeing my 3D printed case actually fit everything flush. Some of the key things I learned here at BlueStamp include how to solder things together, coding in C++ for Arduino IDE, learning how to CAD in Onshape, and most of all learning how to persevere through tough hardships in my project to end up making it work. In the future I would like to use what I have learned in BlueStamp in Mechanical Engineering clubs in High School or even other class opportunities to learn even more!
 
 
 # Third Milestone
@@ -78,13 +80,13 @@ This is my 3D design for my case for the arduino, breadboard, and ultra sonic se
 
 
 # Troubleshooting
-While making this project you may encounter some issues that can easily be avoided. I myself encountered some wierd problems that ended up being an easy fix.
+While making this project you may encounter some issues that can easily be avoided. I myself encountered some weird problems that ended up being an easy fix.
 
 1. When using the LED with a barrel jack adapter at the end of it you have two options; One, you can continue using the barrel jack while making wires attached to it to plug into the data cable as well as the 5v and Ground.
    Two, you can cut the barrel jack and strip the wire a bit. Then solder a wire to the 5v (The red frayed wire) and the ground (The black frayed wire). These wires will act as your power and ground which can directly connect to       the LED on the power and ground. You can then solder another wire to act as your data cable.
 2. If for some reason your LED is not getting power from the 5V's from the wall plug you should try to plug it into the arduino as well. For some reason this was an issue I encountered and once I put it into my arduino it worked.      For this you can use a breadboard to give power to all the components. However if this problem does occur, you will need to plug the 5v and ground into the breadboard instead of directly to the LED.
 3. When coding in the arduino IDE be sure to try and make your ultrasonic sensor read its data first in order to make sure that it works. You will want to make it read in the Serial Monitor on the arduino IDE. You can access my        code below as the written version. This has the code already in place, but make sure you check everything and debug it if there are any issues in order to make it work.
-4. When CADing the design if you desire to make your own CAD model for the case for the arduino, breadboard, and the ultrasonic sensor triple check your tolerances for any hole that you make in it. Trust me this will save you a lot    of trouble!!! If you don't want to make your own design my design is above if you would like to use it.
+4. When CADing the design if you desire to make your own CAD model for the case for tweird e arduino, breadboard, and the ultrasonic sensor triple check your tolerances for any hole that you make in it. Trust me this will save you a lot    of trouble!!! If you don't want to make your own design my design is above if you would like to use it.
 5. Have patience if something doesn't work. When building things, in fact when doing anything in mechanical engineering it will require a lot of patience and time to make things work. Nothing will work on the first try and it will     take a lot of debugging and troubleshooting to make things work, but if you keep on persevering through it you will end up with a super cool and neat project at the end! And always if you need help ask your instructors.
 
 # Code for Garage Parking Assistant
