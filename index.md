@@ -7,7 +7,7 @@ My project is the garage parking assistant. This is a device programmed to help 
 
 
 
-![Headstone Image](Arvind-Headshot.png)
+![Headstone Image](Arvind-Project.png)
 # Final Milestone
 
 
