@@ -55,7 +55,7 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 
 
 # Schematics 
-![Headstone Image](/Screen Shot 2023-06-27 at 4.19.31 PM.png)
+![Schematics Image](/Screen Shot 2023-06-27 at 4.19.31 PM.png)
 
 ```
 Intesnive Project Code:
