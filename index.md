@@ -1,4 +1,4 @@
-# Garage Parking Assist
+# Garage Parking Assistant 
 My project is the garage parking assistant. This is a device programmed to help a car park in a tight garage by putting a red light if the car is getting close to the wall to prevent the car from hitting the wall. When a car is backing out it returns to a green light indicating the car has plenty of space in front of it.
 
 | **Engineer** | **School** | **Area of Intrest** | **Grade** |
