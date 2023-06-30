@@ -62,8 +62,8 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 # Schematics 
 ![Schematics Image](/3D design.png)
 
-```
 Intesnive Project Code:
+```
 
 #define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
