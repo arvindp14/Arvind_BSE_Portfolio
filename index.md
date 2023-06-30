@@ -61,14 +61,16 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 
 
 # Schematics 
+When starting the project you will need to connect your data cable into digital 3 in your arduino uno board.
 ![First Image](First Image.png)
 
+You can also connect your ultrasonic sensor to your arduino uno board. You can connect the trig and echo pins into digtal 10 and 11. 
 ![Second Image](Second Image.png)
 
-
+This is my 3D design for my case for the arduino, breadboard, and ultra sonic sensor. If you want to use the same design, the link is below if you would like to use this design in you project. 
 ![Schematics Image](3D design.png)
 
-Intesnive Project Code:
+href="https://cad.onshape.com/documents/bf41ee9f11c978e11e3394a0/w/dbc2a44016fd211d42193612/e/19b8ec18d65992c16a4828b4"> Link to CAD desgin </a> |
 ```
 
 #define trigPin       10  // ultrasonic sensro trig ping
