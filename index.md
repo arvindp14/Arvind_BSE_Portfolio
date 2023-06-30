@@ -203,3 +203,10 @@ void ChangePixelColors(int zonemax, float distance, int R, int G, int B)
 | Ultrasonic Sensor | This item tells the distance of the car that is either coming or going. | $6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_1_sspa?crid=2LCIWSS7GNM2P&keywords=ultrasonic+sensor+arduino&qid=1687561198&sprefix=ultrasonic+senso%2Caps%2C213&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 | Arduino Uno | This is the device that you plug in all of your wires and takes in the code from your computer to make the code get onto all of your componets. | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=sr_1_1_sspa?crid=25F69CU9EEICD&keywords=arduino+uno&qid=1687805603&sprefix=arduino%2Caps%2C304&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 | Breadboard | This is the device where you can connect your wires that need to be powered into it as well as your 5V power supply for easier access to get all power in one place. | $8.99 | <a href="https://www.amazon.com/SchmalzTech-Solderless-Breadboard-Electronics-Prototyping/dp/B0B1XGCFGW/ref=sr_1_7_sspa?crid=189NUEU8UW3Y5&keywords=small+bread+board+electronics+one&qid=1687806083&sprefix=small+bread+board+electronics+one+%2Caps%2C131&sr=8-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1"> Link </a> |
+
+# Other Resources
+Here are some of the resources that I used for my project:
+1. <a href="https://makezine.com/projects/arduino-powered-garage-parking-sensor/"> Instructions </a> |
+2. <a href="https://projecthub.arduino.cc/Bcjams/garage-parking-assistant-55c22c"> Arduino Instructions </a> |
+3. <a href="https://3dchimera.com/blogs/connecting-the-dots/3d-printing-tolerances-fits"> CAD Tolerances </a> |
+4. <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-debugger"> Debugging in Arduino (C++) </a> |
