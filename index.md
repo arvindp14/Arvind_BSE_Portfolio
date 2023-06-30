@@ -60,7 +60,7 @@ My starter milestone was completing my starter project which was the Tv Be Gone.
 
 
 # Schematics 
-![Schematics Image](/3D design.png)
+![Schematics Image](3D design.png)
 
 Intesnive Project Code:
 ```
