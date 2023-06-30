@@ -86,7 +86,8 @@ While making this project you may encounter some issues that can easily be avoid
 4. When CADing the design if you desire to make your own CAD model for the case for the arduino, breadboard, and the ultrasonic sensor triple check your tolerances for any hole that you make in it. Trust me this will save you a lot    of trouble!!! If you don't want to make your own design my design is above if you would like to use it.
 5. Have patience if something doesn't work. When building things, in fact when doing anything in mechanical engineering it will require a lot of patience and time to make things work. Nothing will work on the first try and it will     take a lot of debugging and troubleshooting to make things work, but if you keep on persevering through it you will end up with a super cool and neat project at the end! And always if you need help ask your instructors.
 
-
+# Code for Garage Parking Assistant
+Here is the link for downloading the code:
 ```
 #define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
