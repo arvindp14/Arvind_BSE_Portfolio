@@ -74,7 +74,8 @@ You can also connect your ultrasonic sensor to your arduino uno board. You can c
 This is my 3D design for my case for the arduino, breadboard, and ultra sonic sensor. If you want to use the same design, the link is below if you would like to use this design in you project. 
 ![Schematics Image](3D design.png)
 
-href="https://cad.onshape.com/documents/bf41ee9f11c978e11e3394a0/w/dbc2a44016fd211d42193612/e/19b8ec18d65992c16a4828b4"> Link to CAD desgin </a> |
+<a href="https://cad.onshape.com/documents/bf41ee9f11c978e11e3394a0/w/dbc2a44016fd211d42193612/e/19b8ec18d65992c16a4828b4"> Link to CAD </a> |
+
 
 # Troubleshooting
 While making this project you may encounter some issues that can easily be avoided. I myself encountered some wierd problems that ended up being an easy fix.
@@ -82,13 +83,11 @@ While making this project you may encounter some issues that can easily be avoid
 1. When using the LED with a barrel jack adapter at the end of it you have two options; One, you can continue using the barrel jack while making wires attached to it to plug into the data cable as well as the 5v and Ground.
    Two, you can cut the barrel jack and strip the wire a bit. Then solder a wire to the 5v (The red frayed wire) and the ground (The black frayed wire). These wires will act as your power and ground which can directly connect to       the LED on the power and ground. You can then solder another wire to act as your data cable.
 2. If for some reason your LED is not getting power from the 5V's from the wall plug you should try to plug it into the arduino as well. For some reason this was an issue I encountered and once I put it into my arduino it worked.      For this you can use a breadboard to give power to all the components. However if this problem does occur, you will need to plug the 5v and ground into the breadboard instead of directly to the LED.
-3. When coding in the arduino IDE be sure to try and make your ultrasonic sensor read its data first in order to make sure that it works. You will want to make it read in the Serial Monitor on the arduino IDE. You can access my        code below as well as the written version. This has the code already in place, but make sure you check everything and debug it if there are any issues in order to make it work.
+3. When coding in the arduino IDE be sure to try and make your ultrasonic sensor read its data first in order to make sure that it works. You will want to make it read in the Serial Monitor on the arduino IDE. You can access my        code below as the written version. This has the code already in place, but make sure you check everything and debug it if there are any issues in order to make it work.
 4. When CADing the design if you desire to make your own CAD model for the case for the arduino, breadboard, and the ultrasonic sensor triple check your tolerances for any hole that you make in it. Trust me this will save you a lot    of trouble!!! If you don't want to make your own design my design is above if you would like to use it.
 5. Have patience if something doesn't work. When building things, in fact when doing anything in mechanical engineering it will require a lot of patience and time to make things work. Nothing will work on the first try and it will     take a lot of debugging and troubleshooting to make things work, but if you keep on persevering through it you will end up with a super cool and neat project at the end! And always if you need help ask your instructors.
 
 # Code for Garage Parking Assistant
-Here is the link for the code: <a href="file:///Users/arvindpullur/Downloads/Main_Project_Garage2_.ino"> Code Link </a> |
-
 ```
 #define trigPin       10  // ultrasonic sensro trig ping
 #define echoPin       11  // ultrasonic sensro echo ping
